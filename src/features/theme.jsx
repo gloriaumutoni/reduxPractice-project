@@ -9,7 +9,7 @@ export const themeSlice=createSlice({
    reducers:{
        ChangeColor :(state,action)=>{
 state.value=action.payload
-       },
+       }, 
        
    }
 })
